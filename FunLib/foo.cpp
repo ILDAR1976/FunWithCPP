@@ -38,7 +38,7 @@ extern "C"
 __declspec(dllexport)
 void CALLBACK Print(HWND, HINSTANCE, wchar_t const*, int)
 {
-	//AllocConsole();
+
 	freopen("CONIN$", "r", stdin);
 	freopen("CONOUT$", "w", stdout);
 	freopen("CONOUT$", "w", stderr);
